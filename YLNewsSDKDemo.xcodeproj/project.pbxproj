@@ -17,7 +17,6 @@
 		180769CD24935A9300B77D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180769CC24935A9300B77D84 /* main.m */; };
 		180769D724935BBD00B77D84 /* YLIFSdkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 180769D524935BBD00B77D84 /* YLIFSdkBundle.bundle */; };
 		182DA72D257FA3BB00CF6081 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DA72C257FA3BA00CF6081 /* TestViewController.m */; };
-		3A63E5BBD3A03F04BD8A77F4 /* libPods-YLNewsSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB19242D8D4B31B282CB7B3 /* libPods-YLNewsSDKDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +37,6 @@
 		182DA72B257FA3BA00CF6081 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		182DA72C257FA3BA00CF6081 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		2661E4BD78D5CCC20A2E4B14 /* Pods-YLNewsSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLNewsSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-YLNewsSDKDemo/Pods-YLNewsSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		3FB19242D8D4B31B282CB7B3 /* libPods-YLNewsSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLNewsSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1208BF1136BD1E29C6ABB3 /* Pods-YLNewsSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLNewsSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-YLNewsSDKDemo/Pods-YLNewsSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +46,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18053659257625A400F366B5 /* YLInfoFlowSDK.framework in Frameworks */,
-				3A63E5BBD3A03F04BD8A77F4 /* libPods-YLNewsSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				180769D324935BBD00B77D84 /* YLNewsSdk */,
-				3FB19242D8D4B31B282CB7B3 /* libPods-YLNewsSDKDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

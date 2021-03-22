@@ -1,19 +1,19 @@
 Pod::Spec.new do |spec|
 
-    spec.name         = "YLNewsSDK"
+    spec.name         = "YouliaoNewsSdk-iOS"
     spec.version      = "1.1.3"
-    spec.summary      = "YLNewsSdk suport for iOS"
+    spec.summary      = "YouliaoNewsSdk-iOS suport for iOS"
 
     spec.description  = <<-DESC
     YLNewsSdk trusteeship for iOS
                     DESC
                     
-    spec.homepage     = "https://github.com/YLNewsSDK-iOS/YLNewsSDK"
+    spec.homepage     = "https://github.com/YouliaoSdk/YouliaoNewsSdk-iOS"
     spec.license      = "MIT"
     spec.author       = { "" => "wp962309947@163.com" }
     spec.platform     = :ios, "10.0"
 
-    spec.source       = { :git => "https://github.com/YLNewsSDK-iOS/YLNewsSDK.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/YouliaoSdk/YouliaoNewsSdk-iOS.git", :tag => "#{spec.version}" }
     spec.resource  = "YLNewsSdk/YLIFSdkBundle.bundle"
     spec.vendored_frameworks = "YLNewsSdk/YLInfoFlowSDK.framework"
 

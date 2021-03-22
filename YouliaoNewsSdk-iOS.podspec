@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     spec.summary      = "YouliaoNewsSdk-iOS suport for iOS"
 
     spec.description  = <<-DESC
-    YLNewsSdk trusteeship for iOS
+    YouliaoNewsSdk-iOS trusteeship for iOS
                     DESC
                     
     spec.homepage     = "https://github.com/YouliaoSdk/YouliaoNewsSdk-iOS"
